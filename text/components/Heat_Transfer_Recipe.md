@@ -7,6 +7,8 @@ Heat Transfer Recipe. -
 #### Inputs
 * ##### turbulenceProp [Default]
 Turbulence properties. This values will overwrite default values, and can be updated while the solution is running.
+* ##### temperature [Default]
+Reference temperature in degrees celsius. Default is set to 26.85 C (300 K) degrees.
 * ##### fvSchemes [Optional]
 Optional input for fvSchemes to overwrite default fvSchemes.
 * ##### fvSolution [Optional]
